@@ -1,0 +1,643 @@
+{
+    ["vulkan-validationlayers"] = {
+        __enabled = true,
+        __installdir = "/home/luca/.xmake/packages/v/vulkan-validationlayers/1.2.198+0/4502922f6ae641439bfad2a2832a9c86",
+        __requirestr = "vulkan-validationlayers",
+        libfiles = {
+            "/home/luca/.xmake/packages/v/vulkan-validationlayers/1.2.198+0/4502922f6ae641439bfad2a2832a9c86/lib/libVkLayer_utils.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libglslang.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libMachineIndependent.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libGenericCodeGen.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libOGLCompiler.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libOSDependent.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libHLSL.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libSPIRV.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libSPVRemapper.a",
+            "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib/libSPIRV-Tools-link.a",
+            "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib/libSPIRV-Tools-reduce.a",
+            "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib/libSPIRV-Tools-opt.a",
+            "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib/libSPIRV-Tools.a",
+            "/usr/lib/x86_64-linux-gnu/libXrandr.a",
+            "/usr/lib/x86_64-linux-gnu/libXrandr.so",
+            "/usr/lib/x86_64-linux-gnu/libXext.a",
+            "/usr/lib/x86_64-linux-gnu/libXext.so",
+            "/usr/lib/x86_64-linux-gnu/libXrender.a",
+            "/usr/lib/x86_64-linux-gnu/libXrender.so",
+            "/usr/lib/x86_64-linux-gnu/libX11.a",
+            "/usr/lib/x86_64-linux-gnu/libX11.so",
+            "/usr/lib/x86_64-linux-gnu/libxcb.a",
+            "/usr/lib/x86_64-linux-gnu/libxcb.so",
+            "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib/libpython3.9.a",
+            "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib/libssl.a",
+            "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib/libcrypto.a",
+            "/usr/lib/x86_64-linux-gnu/libz.a",
+            "/usr/lib/x86_64-linux-gnu/libz.so",
+            "/usr/lib/x86_64-linux-gnu/libXau.a",
+            "/usr/lib/x86_64-linux-gnu/libXau.so",
+            "/usr/lib/x86_64-linux-gnu/libXdmcp.a",
+            "/usr/lib/x86_64-linux-gnu/libXdmcp.so",
+            "/usr/lib/x86_64-linux-gnu/libxkbcommon.so",
+            "/usr/lib/x86_64-linux-gnu/libwayland-client.so",
+            "/usr/lib/x86_64-linux-gnu/libwayland-cursor.so",
+            "/usr/lib/x86_64-linux-gnu/libwayland-egl.so",
+            "/usr/lib/x86_64-linux-gnu/libwayland-server.so",
+            "/usr/lib/x86_64-linux-gnu/libffi.a",
+            "/usr/lib/x86_64-linux-gnu/libffi_pic.a",
+            "/usr/lib/x86_64-linux-gnu/libffi.so",
+            "/home/luca/.xmake/packages/e/expat/2.4.8/692f4c4d187c409c93126c8add8196a6/lib/libexpat.a"
+        },
+        sysincludedirs = {
+            "/home/luca/.xmake/packages/v/vulkan-validationlayers/1.2.198+0/4502922f6ae641439bfad2a2832a9c86/include",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/include",
+            "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/include",
+            "/home/luca/.xmake/packages/s/spirv-headers/1.3.211+0/e55b6d66238648ddbb7ac8b4d684883a/include",
+            "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/include/python3.9",
+            "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/include",
+            "/usr/include/libxml2",
+            "/home/luca/.xmake/packages/e/expat/2.4.8/692f4c4d187c409c93126c8add8196a6/include",
+            "/home/luca/.xmake/packages/v/vulkan-headers/1.2.198+0/2e6d094ce2ad465ca06ea80ea88029b0/include",
+            "/home/luca/.xmake/packages/r/robin-hood-hashing/3.11.5/c6cb48cc731a4999a2436460d3252d97/include"
+        },
+        license = "Apache-2.0",
+        linkdirs = {
+            "/home/luca/.xmake/packages/v/vulkan-validationlayers/1.2.198+0/4502922f6ae641439bfad2a2832a9c86/lib",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib",
+            "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib",
+            "/usr/lib/x86_64-linux-gnu",
+            "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib",
+            "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib",
+            "/home/luca/.xmake/packages/e/expat/2.4.8/692f4c4d187c409c93126c8add8196a6/lib"
+        },
+        version = "1.2.198+0",
+        syslinks = {
+            "pthread",
+            "util",
+            "dl"
+        },
+        static = true,
+        links = {
+            "VkLayer_utils",
+            "glslang",
+            "MachineIndependent",
+            "GenericCodeGen",
+            "OGLCompiler",
+            "OSDependent",
+            "HLSL",
+            "SPIRV",
+            "SPVRemapper",
+            "SPIRV-Tools-link",
+            "SPIRV-Tools-reduce",
+            "SPIRV-Tools-opt",
+            "SPIRV-Tools",
+            "Xrandr",
+            "Xext",
+            "Xrender",
+            "X11",
+            "xcb",
+            "python3.9",
+            "ssl",
+            "crypto",
+            "z",
+            "Xau",
+            "Xdmcp",
+            "xkbcommon",
+            "wayland-client",
+            "wayland-cursor",
+            "wayland-egl",
+            "wayland-server",
+            "xml2",
+            "ffi",
+            "ffi_pic",
+            "expat"
+        },
+        envs = {
+            SSL_CERT_DIR = {
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d"
+            },
+            SSL_CERT_FILE = {
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d/cacert.pem"
+            },
+            PATH = {
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/bin",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/Scripts",
+                "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/bin",
+                "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/bin",
+                "/home/luca/.xmake/packages/n/ninja/1.11.0/fed8edbab6884f0ea9e18b19db73dc25/bin",
+                "/home/luca/.xmake/packages/n/ninja/1.11.0/fed8edbab6884f0ea9e18b19db73dc25/bin",
+                "/home/luca/.xmake/packages/m/meson/0.62.1/b5e89d33ba5440e9839d62f20276e67d/bin",
+                "/home/luca/.xmake/packages/m/m4/1.4.19/506431dbe48e470691457fb1d73eca79/bin",
+                "/home/luca/.xmake/packages/b/bison/3.8.2/22295b1be33146df9765694b9ba594ba/bin",
+                "/home/luca/.xmake/packages/b/bison/3.8.2/22295b1be33146df9765694b9ba594ba/bin",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/bin",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/Scripts"
+            },
+            LD_LIBRARY_PATH = {
+                "/home/luca/.xmake/packages/v/vulkan-validationlayers/1.2.198+0/4502922f6ae641439bfad2a2832a9c86/lib",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/lib",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/lib",
+                "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib",
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d/lib",
+                "/home/luca/.xmake/packages/l/libffi/3.4.2/3760478a5e514b6396aaffaa11893feb/lib",
+                "/home/luca/.xmake/packages/z/zlib/v1.2.12/f77d14620f8f47b2a7615c6bc3246284/lib",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib",
+                "/home/luca/.xmake/packages/s/spirv-headers/1.3.211+0/e55b6d66238648ddbb7ac8b4d684883a/lib",
+                "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib",
+                "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib",
+                "/home/luca/.xmake/packages/n/ninja/1.11.0/fed8edbab6884f0ea9e18b19db73dc25/lib",
+                "/home/luca/.xmake/packages/n/ninja/1.11.0/fed8edbab6884f0ea9e18b19db73dc25/lib",
+                "/home/luca/.xmake/packages/m/meson/0.62.1/b5e89d33ba5440e9839d62f20276e67d/lib",
+                "/home/luca/.xmake/packages/l/libxml2/2.9.12/29999fb8364443489e37fbd2a75c6f2f/lib",
+                "/home/luca/.xmake/packages/e/expat/2.4.8/692f4c4d187c409c93126c8add8196a6/lib",
+                "/home/luca/.xmake/packages/m/m4/1.4.19/506431dbe48e470691457fb1d73eca79/lib",
+                "/home/luca/.xmake/packages/b/bison/3.8.2/22295b1be33146df9765694b9ba594ba/lib",
+                "/home/luca/.xmake/packages/w/wayland/1.19.0/d4813a414d234036bb8606e1e07c959d/lib",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/lib",
+                "/home/luca/.xmake/packages/u/util-macros/1.19.2/31ceb591d38f4b8eaa0d68205fa2b8a3/lib",
+                "/home/luca/.xmake/packages/x/xorgproto/2021.5/1ac158af33224fd1944a64d9f508842c/lib",
+                "/home/luca/.xmake/packages/x/xtrans/1.4.0/576fb3beba324ff6ba8b503904027ceb/lib",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/lib",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib",
+                "/home/luca/.xmake/packages/x/xcb-proto/1.14.1/47c387a4e1de43fcac017b2e60f17f14/lib",
+                "/home/luca/.xmake/packages/l/libpthread-stubs/0.4/614c096241464f3e9897bd4661143059/lib",
+                "/home/luca/.xmake/packages/l/libxau/1.0.9/07df5435233c4d868caa9d0f7e10a62e/lib",
+                "/home/luca/.xmake/packages/l/libxdmcp/1.1.3/78672dd0294d4b21a7041b57aa194c10/lib",
+                "/home/luca/.xmake/packages/l/libxcb/1.14/db93669a5af1410f8d2bc04e79d40b41/lib",
+                "/home/luca/.xmake/packages/l/libx11/1.7.3/839c7658d2fc456ca78139a3f21cded9/lib",
+                "/home/luca/.xmake/packages/l/libxext/1.3.4/ebd1b5b451434c32a7a71bc8cf20badb/lib",
+                "/home/luca/.xmake/packages/l/libxrender/0.9.10/806dec0aad544e9fa6b0f10142c5441d/lib",
+                "/home/luca/.xmake/packages/l/libxrandr/1.5.2/7e2234438abe46ef8622215d7dc8f3b9/lib",
+                "/home/luca/.xmake/packages/l/libxkbcommon/1.0.3/7247f68c47b64197ac9169b27ec6ee54/lib",
+                "/home/luca/.xmake/packages/v/vulkan-headers/1.2.198+0/2e6d094ce2ad465ca06ea80ea88029b0/lib",
+                "/home/luca/.xmake/packages/r/robin-hood-hashing/3.11.5/c6cb48cc731a4999a2436460d3252d97/lib"
+            },
+            PYTHONPATH = {
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib/python3.9/site-packages",
+                "/home/luca/.xmake/packages/m/meson/0.62.1/b5e89d33ba5440e9839d62f20276e67d",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib/python3.9/site-packages"
+            }
+        }
+    },
+    glfw = {
+        __enabled = true,
+        __installdir = "/home/luca/.xmake/packages/g/glfw/3.3.7/0780a5ed052c4bffb4c067a4ed9d77f4",
+        __requirestr = "glfw",
+        syslinks = {
+            "dl",
+            "pthread",
+            "util"
+        },
+        libfiles = {
+            "/home/luca/.xmake/packages/g/glfw/3.3.7/0780a5ed052c4bffb4c067a4ed9d77f4/lib/libglfw3.a",
+            "/usr/lib/x86_64-linux-gnu/libXrandr.a",
+            "/usr/lib/x86_64-linux-gnu/libXrandr.so",
+            "/home/luca/.xmake/packages/l/libxinerama/1.1.4/fbca2531329d4ef5aadf193cc1ad7dcc/lib/libXinerama.a",
+            "/home/luca/.xmake/packages/l/libxcursor/1.2.0/74629e954cd54dd4b68e35f81fca2dc1/lib/libXcursor.a",
+            "/usr/lib/x86_64-linux-gnu/libXrender.a",
+            "/usr/lib/x86_64-linux-gnu/libXrender.so",
+            "/usr/lib/x86_64-linux-gnu/libXi.a",
+            "/usr/lib/x86_64-linux-gnu/libXi.so",
+            "/home/luca/.xmake/packages/l/libxfixes/5.0.3/94d673be4ad24cbd97e5b00a52a2c919/lib/libXfixes.a",
+            "/usr/lib/x86_64-linux-gnu/libXext.a",
+            "/usr/lib/x86_64-linux-gnu/libXext.so",
+            "/usr/lib/x86_64-linux-gnu/libX11.a",
+            "/usr/lib/x86_64-linux-gnu/libX11.so",
+            "/usr/lib/x86_64-linux-gnu/libxcb.a",
+            "/usr/lib/x86_64-linux-gnu/libxcb.so",
+            "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib/libpython3.9.a",
+            "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib/libssl.a",
+            "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib/libcrypto.a",
+            "/usr/lib/x86_64-linux-gnu/libffi.a",
+            "/usr/lib/x86_64-linux-gnu/libffi_pic.a",
+            "/usr/lib/x86_64-linux-gnu/libffi.so",
+            "/usr/lib/x86_64-linux-gnu/libz.a",
+            "/usr/lib/x86_64-linux-gnu/libz.so",
+            "/usr/lib/x86_64-linux-gnu/libXau.a",
+            "/usr/lib/x86_64-linux-gnu/libXau.so",
+            "/usr/lib/x86_64-linux-gnu/libXdmcp.a",
+            "/usr/lib/x86_64-linux-gnu/libXdmcp.so"
+        },
+        sysincludedirs = {
+            "/home/luca/.xmake/packages/g/glfw/3.3.7/0780a5ed052c4bffb4c067a4ed9d77f4/include",
+            "/home/luca/.xmake/packages/l/libxinerama/1.1.4/fbca2531329d4ef5aadf193cc1ad7dcc/include",
+            "/home/luca/.xmake/packages/l/libxcursor/1.2.0/74629e954cd54dd4b68e35f81fca2dc1/include",
+            "/home/luca/.xmake/packages/l/libxfixes/5.0.3/94d673be4ad24cbd97e5b00a52a2c919/include",
+            "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/include/python3.9",
+            "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/include"
+        },
+        defines = {
+            "_GLFW_X11",
+            "GLFW_INCLUDE_NONE"
+        },
+        linkdirs = {
+            "/home/luca/.xmake/packages/g/glfw/3.3.7/0780a5ed052c4bffb4c067a4ed9d77f4/lib",
+            "/usr/lib/x86_64-linux-gnu",
+            "/home/luca/.xmake/packages/l/libxinerama/1.1.4/fbca2531329d4ef5aadf193cc1ad7dcc/lib",
+            "/home/luca/.xmake/packages/l/libxcursor/1.2.0/74629e954cd54dd4b68e35f81fca2dc1/lib",
+            "/home/luca/.xmake/packages/l/libxfixes/5.0.3/94d673be4ad24cbd97e5b00a52a2c919/lib",
+            "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib",
+            "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib"
+        },
+        version = "3.3.7",
+        license = "zlib",
+        static = true,
+        links = {
+            "glfw3",
+            "Xrandr",
+            "Xinerama",
+            "Xcursor",
+            "Xrender",
+            "Xi",
+            "Xfixes",
+            "Xext",
+            "X11",
+            "xcb",
+            "python3.9",
+            "ssl",
+            "crypto",
+            "ffi",
+            "ffi_pic",
+            "z",
+            "Xau",
+            "Xdmcp"
+        },
+        envs = {
+            SSL_CERT_DIR = {
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d"
+            },
+            SSL_CERT_FILE = {
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d/cacert.pem"
+            },
+            PATH = {
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/bin",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/bin",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/Scripts",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/Scripts"
+            },
+            LD_LIBRARY_PATH = {
+                "/home/luca/.xmake/packages/g/glfw/3.3.7/0780a5ed052c4bffb4c067a4ed9d77f4/lib",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/lib",
+                "/home/luca/.xmake/packages/o/opengl/latest/4e0143c97b65425b855ad5fd03038b6a/lib",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/lib",
+                "/home/luca/.xmake/packages/u/util-macros/1.19.2/31ceb591d38f4b8eaa0d68205fa2b8a3/lib",
+                "/home/luca/.xmake/packages/x/xorgproto/2021.5/1ac158af33224fd1944a64d9f508842c/lib",
+                "/home/luca/.xmake/packages/x/xtrans/1.4.0/576fb3beba324ff6ba8b503904027ceb/lib",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/lib",
+                "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib",
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d/lib",
+                "/home/luca/.xmake/packages/l/libffi/3.4.2/3760478a5e514b6396aaffaa11893feb/lib",
+                "/home/luca/.xmake/packages/z/zlib/v1.2.12/f77d14620f8f47b2a7615c6bc3246284/lib",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib",
+                "/home/luca/.xmake/packages/x/xcb-proto/1.14.1/47c387a4e1de43fcac017b2e60f17f14/lib",
+                "/home/luca/.xmake/packages/l/libpthread-stubs/0.4/614c096241464f3e9897bd4661143059/lib",
+                "/home/luca/.xmake/packages/l/libxau/1.0.9/07df5435233c4d868caa9d0f7e10a62e/lib",
+                "/home/luca/.xmake/packages/l/libxdmcp/1.1.3/78672dd0294d4b21a7041b57aa194c10/lib",
+                "/home/luca/.xmake/packages/l/libxcb/1.14/db93669a5af1410f8d2bc04e79d40b41/lib",
+                "/home/luca/.xmake/packages/l/libx11/1.7.3/839c7658d2fc456ca78139a3f21cded9/lib",
+                "/home/luca/.xmake/packages/l/libxext/1.3.4/ebd1b5b451434c32a7a71bc8cf20badb/lib",
+                "/home/luca/.xmake/packages/l/libxrender/0.9.10/806dec0aad544e9fa6b0f10142c5441d/lib",
+                "/home/luca/.xmake/packages/l/libxrandr/1.5.2/7e2234438abe46ef8622215d7dc8f3b9/lib",
+                "/home/luca/.xmake/packages/l/libxinerama/1.1.4/fbca2531329d4ef5aadf193cc1ad7dcc/lib",
+                "/home/luca/.xmake/packages/l/libxfixes/5.0.3/94d673be4ad24cbd97e5b00a52a2c919/lib",
+                "/home/luca/.xmake/packages/l/libxcursor/1.2.0/74629e954cd54dd4b68e35f81fca2dc1/lib",
+                "/home/luca/.xmake/packages/l/libxi/1.8/98f0dd4777c3417abf73c89d52845a65/lib"
+            },
+            PYTHONPATH = {
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib/python3.9/site-packages",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib/python3.9/site-packages"
+            }
+        }
+    },
+    ["vulkan-headers"] = {
+        sysincludedirs = "/home/luca/.xmake/packages/v/vulkan-headers/1.3.211+0/2a50ef904313495ab8b50df7eef87b60/include",
+        __installdir = "/home/luca/.xmake/packages/v/vulkan-headers/1.3.211+0/2a50ef904313495ab8b50df7eef87b60",
+        license = "Apache-2.0",
+        version = "1.3.211+0",
+        __requirestr = "vulkan-headers",
+        envs = {
+            PATH = {
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/bin"
+            },
+            LD_LIBRARY_PATH = {
+                "/home/luca/.xmake/packages/v/vulkan-headers/1.3.211+0/2a50ef904313495ab8b50df7eef87b60/lib",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/lib"
+            }
+        },
+        __enabled = true
+    },
+    glslang = {
+        __enabled = true,
+        __installdir = "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff",
+        __requirestr = "glslang",
+        linkdirs = {
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib",
+            "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib"
+        },
+        sysincludedirs = {
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/include",
+            "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/include",
+            "/home/luca/.xmake/packages/s/spirv-headers/1.3.211+0/e55b6d66238648ddbb7ac8b4d684883a/include"
+        },
+        syslinks = "pthread",
+        libfiles = {
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libglslang.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libMachineIndependent.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libGenericCodeGen.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libOGLCompiler.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libOSDependent.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libHLSL.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libSPIRV.a",
+            "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib/libSPVRemapper.a",
+            "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib/libSPIRV-Tools-link.a",
+            "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib/libSPIRV-Tools-reduce.a",
+            "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib/libSPIRV-Tools-opt.a",
+            "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib/libSPIRV-Tools.a"
+        },
+        links = {
+            "glslang",
+            "MachineIndependent",
+            "GenericCodeGen",
+            "OGLCompiler",
+            "OSDependent",
+            "HLSL",
+            "SPIRV",
+            "SPVRemapper",
+            "SPIRV-Tools-link",
+            "SPIRV-Tools-reduce",
+            "SPIRV-Tools-opt",
+            "SPIRV-Tools"
+        },
+        envs = {
+            SSL_CERT_DIR = {
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d"
+            },
+            SSL_CERT_FILE = {
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d/cacert.pem"
+            },
+            PATH = {
+                "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/bin",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/Scripts",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/bin",
+                "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/bin"
+            },
+            LD_LIBRARY_PATH = {
+                "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/lib",
+                "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib",
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d/lib",
+                "/home/luca/.xmake/packages/l/libffi/3.4.2/3760478a5e514b6396aaffaa11893feb/lib",
+                "/home/luca/.xmake/packages/z/zlib/v1.2.12/f77d14620f8f47b2a7615c6bc3246284/lib",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/lib",
+                "/home/luca/.xmake/packages/s/spirv-headers/1.3.211+0/e55b6d66238648ddbb7ac8b4d684883a/lib",
+                "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib"
+            },
+            PYTHONPATH = {
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib/python3.9/site-packages"
+            }
+        }
+    },
+    ["vulkan-loader"] = {
+        shared = true,
+        __installdir = "/home/luca/.xmake/packages/v/vulkan-loader/1.2.198+0/626e7d66920a4d73860ea3e8e30f6402",
+        __requirestr = "vulkan-loader",
+        linkdirs = {
+            "/home/luca/.xmake/packages/v/vulkan-loader/1.2.198+0/626e7d66920a4d73860ea3e8e30f6402/lib",
+            "/usr/lib/x86_64-linux-gnu",
+            "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib",
+            "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib",
+            "/home/luca/.xmake/packages/e/expat/2.4.8/692f4c4d187c409c93126c8add8196a6/lib"
+        },
+        sysincludedirs = {
+            "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/include/python3.9",
+            "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/include",
+            "/usr/include/libxml2",
+            "/home/luca/.xmake/packages/e/expat/2.4.8/692f4c4d187c409c93126c8add8196a6/include",
+            "/home/luca/.xmake/packages/v/vulkan-headers/1.2.198+0/2e6d094ce2ad465ca06ea80ea88029b0/include"
+        },
+        license = "Apache-2.0",
+        envs = {
+            SSL_CERT_DIR = {
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d"
+            },
+            SSL_CERT_FILE = {
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d/cacert.pem"
+            },
+            PATH = {
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/Scripts",
+                "/home/luca/.xmake/packages/n/ninja/1.11.0/fed8edbab6884f0ea9e18b19db73dc25/bin",
+                "/home/luca/.xmake/packages/m/meson/0.62.1/b5e89d33ba5440e9839d62f20276e67d/bin",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/bin",
+                "/home/luca/.xmake/packages/m/m4/1.4.19/506431dbe48e470691457fb1d73eca79/bin",
+                "/home/luca/.xmake/packages/b/bison/3.8.2/22295b1be33146df9765694b9ba594ba/bin",
+                "/home/luca/.xmake/packages/b/bison/3.8.2/22295b1be33146df9765694b9ba594ba/bin",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/bin",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/Scripts",
+                "/home/luca/.xmake/packages/n/ninja/1.11.0/fed8edbab6884f0ea9e18b19db73dc25/bin"
+            },
+            LD_LIBRARY_PATH = {
+                "/home/luca/.xmake/packages/v/vulkan-loader/1.2.198+0/626e7d66920a4d73860ea3e8e30f6402/lib",
+                "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib",
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d/lib",
+                "/home/luca/.xmake/packages/l/libffi/3.4.2/3760478a5e514b6396aaffaa11893feb/lib",
+                "/home/luca/.xmake/packages/z/zlib/v1.2.12/f77d14620f8f47b2a7615c6bc3246284/lib",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib",
+                "/home/luca/.xmake/packages/n/ninja/1.11.0/fed8edbab6884f0ea9e18b19db73dc25/lib",
+                "/home/luca/.xmake/packages/m/meson/0.62.1/b5e89d33ba5440e9839d62f20276e67d/lib",
+                "/home/luca/.xmake/packages/l/libxml2/2.9.12/29999fb8364443489e37fbd2a75c6f2f/lib",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/lib",
+                "/home/luca/.xmake/packages/e/expat/2.4.8/692f4c4d187c409c93126c8add8196a6/lib",
+                "/home/luca/.xmake/packages/m/m4/1.4.19/506431dbe48e470691457fb1d73eca79/lib",
+                "/home/luca/.xmake/packages/b/bison/3.8.2/22295b1be33146df9765694b9ba594ba/lib",
+                "/home/luca/.xmake/packages/w/wayland/1.19.0/d4813a414d234036bb8606e1e07c959d/lib",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/lib",
+                "/home/luca/.xmake/packages/u/util-macros/1.19.2/31ceb591d38f4b8eaa0d68205fa2b8a3/lib",
+                "/home/luca/.xmake/packages/x/xorgproto/2021.5/1ac158af33224fd1944a64d9f508842c/lib",
+                "/home/luca/.xmake/packages/x/xtrans/1.4.0/576fb3beba324ff6ba8b503904027ceb/lib",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/lib",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib",
+                "/home/luca/.xmake/packages/x/xcb-proto/1.14.1/47c387a4e1de43fcac017b2e60f17f14/lib",
+                "/home/luca/.xmake/packages/l/libpthread-stubs/0.4/614c096241464f3e9897bd4661143059/lib",
+                "/home/luca/.xmake/packages/l/libxau/1.0.9/07df5435233c4d868caa9d0f7e10a62e/lib",
+                "/home/luca/.xmake/packages/l/libxdmcp/1.1.3/78672dd0294d4b21a7041b57aa194c10/lib",
+                "/home/luca/.xmake/packages/l/libxcb/1.14/db93669a5af1410f8d2bc04e79d40b41/lib",
+                "/home/luca/.xmake/packages/l/libx11/1.7.3/839c7658d2fc456ca78139a3f21cded9/lib",
+                "/home/luca/.xmake/packages/l/libxext/1.3.4/ebd1b5b451434c32a7a71bc8cf20badb/lib",
+                "/home/luca/.xmake/packages/l/libxrender/0.9.10/806dec0aad544e9fa6b0f10142c5441d/lib",
+                "/home/luca/.xmake/packages/l/libxrandr/1.5.2/7e2234438abe46ef8622215d7dc8f3b9/lib",
+                "/home/luca/.xmake/packages/l/libxkbcommon/1.0.3/7247f68c47b64197ac9169b27ec6ee54/lib",
+                "/home/luca/.xmake/packages/v/vulkan-headers/1.2.198+0/2e6d094ce2ad465ca06ea80ea88029b0/lib",
+                "/home/luca/.xmake/packages/n/ninja/1.11.0/fed8edbab6884f0ea9e18b19db73dc25/lib"
+            },
+            PYTHONPATH = {
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib/python3.9/site-packages",
+                "/home/luca/.xmake/packages/m/meson/0.62.1/b5e89d33ba5440e9839d62f20276e67d",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib/python3.9/site-packages"
+            }
+        },
+        libfiles = {
+            "/home/luca/.xmake/packages/v/vulkan-loader/1.2.198+0/626e7d66920a4d73860ea3e8e30f6402/lib/libvulkan.so",
+            "/home/luca/.xmake/packages/v/vulkan-loader/1.2.198+0/626e7d66920a4d73860ea3e8e30f6402/lib/libvulkan.so.1",
+            "/home/luca/.xmake/packages/v/vulkan-loader/1.2.198+0/626e7d66920a4d73860ea3e8e30f6402/lib/libvulkan.so.1.2.198",
+            "/usr/lib/x86_64-linux-gnu/libXrandr.a",
+            "/usr/lib/x86_64-linux-gnu/libXrandr.so",
+            "/usr/lib/x86_64-linux-gnu/libXext.a",
+            "/usr/lib/x86_64-linux-gnu/libXext.so",
+            "/usr/lib/x86_64-linux-gnu/libXrender.a",
+            "/usr/lib/x86_64-linux-gnu/libXrender.so",
+            "/usr/lib/x86_64-linux-gnu/libX11.a",
+            "/usr/lib/x86_64-linux-gnu/libX11.so",
+            "/usr/lib/x86_64-linux-gnu/libxcb.a",
+            "/usr/lib/x86_64-linux-gnu/libxcb.so",
+            "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib/libpython3.9.a",
+            "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib/libssl.a",
+            "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib/libcrypto.a",
+            "/usr/lib/x86_64-linux-gnu/libz.a",
+            "/usr/lib/x86_64-linux-gnu/libz.so",
+            "/usr/lib/x86_64-linux-gnu/libXau.a",
+            "/usr/lib/x86_64-linux-gnu/libXau.so",
+            "/usr/lib/x86_64-linux-gnu/libXdmcp.a",
+            "/usr/lib/x86_64-linux-gnu/libXdmcp.so",
+            "/usr/lib/x86_64-linux-gnu/libxkbcommon.so",
+            "/usr/lib/x86_64-linux-gnu/libwayland-client.so",
+            "/usr/lib/x86_64-linux-gnu/libwayland-cursor.so",
+            "/usr/lib/x86_64-linux-gnu/libwayland-egl.so",
+            "/usr/lib/x86_64-linux-gnu/libwayland-server.so",
+            "/usr/lib/x86_64-linux-gnu/libffi.a",
+            "/usr/lib/x86_64-linux-gnu/libffi_pic.a",
+            "/usr/lib/x86_64-linux-gnu/libffi.so",
+            "/home/luca/.xmake/packages/e/expat/2.4.8/692f4c4d187c409c93126c8add8196a6/lib/libexpat.a"
+        },
+        syslinks = {
+            "util",
+            "pthread",
+            "dl"
+        },
+        version = "1.2.198+0",
+        links = {
+            "vulkan",
+            "Xrandr",
+            "Xext",
+            "Xrender",
+            "X11",
+            "xcb",
+            "python3.9",
+            "ssl",
+            "crypto",
+            "z",
+            "Xau",
+            "Xdmcp",
+            "xkbcommon",
+            "wayland-client",
+            "wayland-cursor",
+            "wayland-egl",
+            "wayland-server",
+            "xml2",
+            "ffi",
+            "ffi_pic",
+            "expat"
+        },
+        __enabled = true
+    },
+    ["vulkan-tools"] = {
+        __enabled = true,
+        __installdir = "/home/luca/.xmake/packages/v/vulkan-tools/1.2.198+0/356bdbb435a74edb9026217bf3b51a16",
+        __requirestr = "vulkan-tools",
+        envs = {
+            SSL_CERT_DIR = {
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d"
+            },
+            SSL_CERT_FILE = {
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d/cacert.pem"
+            },
+            PATH = {
+                "/home/luca/.xmake/packages/v/vulkan-tools/1.2.198+0/356bdbb435a74edb9026217bf3b51a16/bin",
+                "/home/luca/.xmake/packages/v/vulkan-tools/1.2.198+0/356bdbb435a74edb9026217bf3b51a16/bin",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/Scripts",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/bin",
+                "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/bin",
+                "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/bin",
+                "/home/luca/.xmake/packages/n/ninja/1.11.0/fed8edbab6884f0ea9e18b19db73dc25/bin",
+                "/home/luca/.xmake/packages/m/meson/0.62.1/b5e89d33ba5440e9839d62f20276e67d/bin",
+                "/home/luca/.xmake/packages/m/m4/1.4.19/506431dbe48e470691457fb1d73eca79/bin",
+                "/home/luca/.xmake/packages/b/bison/3.8.2/22295b1be33146df9765694b9ba594ba/bin",
+                "/home/luca/.xmake/packages/b/bison/3.8.2/22295b1be33146df9765694b9ba594ba/bin",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/bin",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/bin",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/Scripts",
+                "/home/luca/.xmake/packages/n/ninja/1.11.0/fed8edbab6884f0ea9e18b19db73dc25/bin"
+            },
+            LD_LIBRARY_PATH = {
+                "/home/luca/.xmake/packages/v/vulkan-tools/1.2.198+0/356bdbb435a74edb9026217bf3b51a16/lib",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/lib",
+                "/home/luca/.xmake/packages/o/openssl/1.1.1o/0958a9e8a42e45049c7a0fd190bd5c70/lib",
+                "/home/luca/.xmake/packages/c/ca-certificates/20220604/99b095605f394474b588722ba3b7979d/lib",
+                "/home/luca/.xmake/packages/l/libffi/3.4.2/3760478a5e514b6396aaffaa11893feb/lib",
+                "/home/luca/.xmake/packages/z/zlib/v1.2.12/f77d14620f8f47b2a7615c6bc3246284/lib",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib",
+                "/home/luca/.xmake/packages/c/cmake/3.22.1/0f13fccf1bec481db8a56b7a3c0eff80/lib",
+                "/home/luca/.xmake/packages/s/spirv-headers/1.3.211+0/e55b6d66238648ddbb7ac8b4d684883a/lib",
+                "/home/luca/.xmake/packages/s/spirv-tools/2022.2/166113628566420eb2fa0a91e8a6e789/lib",
+                "/home/luca/.xmake/packages/g/glslang/1.3.211+0/2b2e6dd57a5f4fb19e64c6c2a49156ff/lib",
+                "/home/luca/.xmake/packages/n/ninja/1.11.0/fed8edbab6884f0ea9e18b19db73dc25/lib",
+                "/home/luca/.xmake/packages/m/meson/0.62.1/b5e89d33ba5440e9839d62f20276e67d/lib",
+                "/home/luca/.xmake/packages/l/libxml2/2.9.12/29999fb8364443489e37fbd2a75c6f2f/lib",
+                "/home/luca/.xmake/packages/e/expat/2.4.8/692f4c4d187c409c93126c8add8196a6/lib",
+                "/home/luca/.xmake/packages/m/m4/1.4.19/506431dbe48e470691457fb1d73eca79/lib",
+                "/home/luca/.xmake/packages/b/bison/3.8.2/22295b1be33146df9765694b9ba594ba/lib",
+                "/home/luca/.xmake/packages/w/wayland/1.19.0/d4813a414d234036bb8606e1e07c959d/lib",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/lib",
+                "/home/luca/.xmake/packages/u/util-macros/1.19.2/31ceb591d38f4b8eaa0d68205fa2b8a3/lib",
+                "/home/luca/.xmake/packages/x/xorgproto/2021.5/1ac158af33224fd1944a64d9f508842c/lib",
+                "/home/luca/.xmake/packages/x/xtrans/1.4.0/576fb3beba324ff6ba8b503904027ceb/lib",
+                "/home/luca/.xmake/packages/p/pkg-config/0.29.2/f9500a0d295b4a7aabf3f933f2972e71/lib",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib",
+                "/home/luca/.xmake/packages/x/xcb-proto/1.14.1/47c387a4e1de43fcac017b2e60f17f14/lib",
+                "/home/luca/.xmake/packages/l/libpthread-stubs/0.4/614c096241464f3e9897bd4661143059/lib",
+                "/home/luca/.xmake/packages/l/libxau/1.0.9/07df5435233c4d868caa9d0f7e10a62e/lib",
+                "/home/luca/.xmake/packages/l/libxdmcp/1.1.3/78672dd0294d4b21a7041b57aa194c10/lib",
+                "/home/luca/.xmake/packages/l/libxcb/1.14/db93669a5af1410f8d2bc04e79d40b41/lib",
+                "/home/luca/.xmake/packages/l/libx11/1.7.3/839c7658d2fc456ca78139a3f21cded9/lib",
+                "/home/luca/.xmake/packages/l/libxext/1.3.4/ebd1b5b451434c32a7a71bc8cf20badb/lib",
+                "/home/luca/.xmake/packages/l/libxrender/0.9.10/806dec0aad544e9fa6b0f10142c5441d/lib",
+                "/home/luca/.xmake/packages/l/libxrandr/1.5.2/7e2234438abe46ef8622215d7dc8f3b9/lib",
+                "/home/luca/.xmake/packages/l/libxkbcommon/1.0.3/7247f68c47b64197ac9169b27ec6ee54/lib",
+                "/home/luca/.xmake/packages/v/vulkan-headers/1.2.198+0/2e6d094ce2ad465ca06ea80ea88029b0/lib",
+                "/home/luca/.xmake/packages/n/ninja/1.11.0/fed8edbab6884f0ea9e18b19db73dc25/lib",
+                "/home/luca/.xmake/packages/v/vulkan-loader/1.2.198+0/626e7d66920a4d73860ea3e8e30f6402/lib"
+            },
+            PYTHONPATH = {
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib/python3.9/site-packages",
+                "/home/luca/.xmake/packages/m/meson/0.62.1/b5e89d33ba5440e9839d62f20276e67d",
+                "/home/luca/.xmake/packages/p/python/3.9.13/657bab6af48e42e29f5b9fc2b1ab5808/lib/python3.9/site-packages"
+            }
+        }
+    },
+    glm = {
+        sysincludedirs = "/home/luca/.xmake/packages/g/glm/0.9.9+8/65b1ad153bda4a43b0454eba7969327f/include",
+        __installdir = "/home/luca/.xmake/packages/g/glm/0.9.9+8/65b1ad153bda4a43b0454eba7969327f",
+        version = "0.9.9+8",
+        __requirestr = "glm",
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/home/luca/.xmake/packages/g/glm/0.9.9+8/65b1ad153bda4a43b0454eba7969327f/lib"
+            }
+        },
+        __enabled = true
+    }
+}
